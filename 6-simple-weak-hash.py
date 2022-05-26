@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import z3
-import ctypes
 
 """
 // lowercase
