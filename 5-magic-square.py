@@ -3,13 +3,10 @@ import z3
 from itertools import chain
 
 """
-A magic square is a particular type of square, where the total of [1-9]
-- every row
-- every column and
-- every diagonal
-is the same value. This number is called the magic constant.
+A square array of numbers, usually positive integers, is called a magic square
+if the sums of the numbers in each row, each column, and both main diagonals are the same.
 
-Magic square of 15:
+Magic square of 15 looks like:
 8 1 6
 3 5 7
 4 9 2

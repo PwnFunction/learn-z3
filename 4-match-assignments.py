@@ -2,7 +2,8 @@
 import z3
 
 """
-There is an assignment of unique digits to letters such that the equation `send + more = money` holds. Find an assignment of the digits to make this true.
+There is an assignment of unique digits to letters such that the equation `send + more = money` holds. 
+Find an assignment of the digits to make this true.
 """
 
 digits = z3.Ints('o d n m e y s r')
