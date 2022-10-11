@@ -44,9 +44,12 @@ A square array of numbers, usually positive integers, is called a magic square
 if the sums of the numbers in each row, each column, and both main diagonals are the same.
 
 Magic square of 15 looks like:
+
+```
 8 1 6
 3 5 7
 4 9 2
+```
 
 Generate a magic square of 15 with z3.
 
