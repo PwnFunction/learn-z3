@@ -36,7 +36,7 @@ solver.add(z3.Distinct(bros))
 solver.add([z3.And(i >= 0, i <= 2) for i in bros])
 
 solver.add(aries == max(bros))
-solver.add(joseph != min(bros))
+solver.add(john != min(bros))
 
 if solver.check() == z3.sat:
     print(solver.model())
